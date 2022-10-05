@@ -1,3 +1,7 @@
+
+import { Link } from "react-router-dom"
+
+
 const NavBar = () => {
     return (
         <div className="navbar bg-base-100">
@@ -7,14 +11,14 @@ const NavBar = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>Homepage</a></li>
+        <li><a>starwars</a></li>
         <li><a>Portfolio</a></li>
-        <li><a>About</a></li>
+        <li><a>Shop</a></li>
       </ul>
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <a className="btn btn-ghost normal-case text-xl">Bienvenido</a>
   </div>
   <div className="navbar-end">
     <button className="btn btn-ghost btn-circle">
@@ -31,15 +35,6 @@ const NavBar = () => {
     )
 }
 
-<div className="card w-96 bg-base-100 shadow-xl image-full">
-  <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-  <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
+
 
 export default NavBar
